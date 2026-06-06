@@ -33,8 +33,6 @@ cp -r solarized-dark ~/.config/ulauncher/user-themes/
 
 - Solarized palette by [Ethan Schoonover](https://ethanschoonover.com/solarized/)
 
----
-
 ## License
 
 This project is licensed under the [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0). See [LICENSE](LICENSE) for details.
