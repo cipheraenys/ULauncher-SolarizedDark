@@ -18,16 +18,24 @@ A clean, refined dark theme for [ULauncher](https://ulauncher.io) built on the t
 ## Installation
 
 ```bash
-# Copy the theme folder to ULauncher user themes directory
-cp -r solarized-dark ~/.config/ulauncher/user-themes/
-
-# Then select "Solarized Dark" in ULauncher Preferences > Color Theme
+# Clone the theme into the ULauncher user themes directory
+git clone https://github.com/cipheraenys/ULauncher-SolarizedDark \
+  ~/.config/ulauncher/user-themes/ULauncher-SolarizedDark
 ```
+
+Then select **Solarized Dark** in ULauncher Preferences > Color Theme.
+
+To update later, run `git pull` inside the cloned folder.
 
 ## Requirements
 
 - ULauncher 5.x or 6.x
 - GTK 3.20+
+
+## Contributing
+
+Issues and pull requests are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md)
+for the workflow; visual changes need before and after screenshots.
 
 ## Credits
 
