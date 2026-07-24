@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate manifest.json
+        run: |
+          jq -e '
+            (.manifest_version == "1")
+            and (.name | type == "string" and length > 0)
+            and (.css_file | type == "string" and length > 0)
+          ' manifest.json > /dev/null
+      - name: Check required files
+        run: |
+          test -f theme.css
+          test -f theme-gtk-3.20.css
+          test -f generated.css
+          test -f LICENSE
