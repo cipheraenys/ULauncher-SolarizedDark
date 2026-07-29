@@ -27,6 +27,11 @@ Then select **Solarized Dark** in ULauncher Preferences > Color Theme.
 
 To update later, run `git pull` inside the cloned folder.
 
+Prefer not to use git? Download the zip from the
+[Releases page](https://github.com/cipheraenys/ULauncher-SolarizedDark/releases),
+extract it into `~/.config/ulauncher/user-themes/`, and select the theme as
+above.
+
 ## Requirements
 
 - ULauncher 5.x or 6.x
