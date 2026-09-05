@@ -19,7 +19,7 @@ jobs:
             manifest.json theme.css theme-gtk-3.20.css generated.css \
             LICENSE README.md
       - name: Publish GitHub release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           files: dist/*.zip
           generate_release_notes: true
